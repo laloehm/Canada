@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #e9e9e9;
+    overflow-x: hidden;
+}
+
+.row {
+    margin: 0;
+}
+
+.text-red {
+    color: #bb0d2a;
+}
+
+/* .navbar {
+    background: #f0eff0;
+} */
+
+.navbar-brand img {
+    width: 400px !important;
+}
+
+.navbar .icon {
+    width: 40px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.home {
+    min-height: 1500px;
+    background-image: url(../images/Home.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.home h1 {
+    font-weight: 700;
+    text-align: right;
+    font-size: 60px;
+    line-height: 50px;
+    margin-top: 8rem;
+}
+
+.home h2 {
+    color: #bb0d2a;
+}
+
+.home img {
+    width: 250px;
+}
+
+.about h2.title {
+    margin-top: -80px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.about .col-md-5 h2 {
+    background: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    width: 130%;
+    line-height: 70px;
+    padding: 30px 50px;
+    margin-left: -20%;
+}
+
+.about .col-md-5 h2 span {
+    color: #bb0d2a;
+    display: block;
+}
+
+.experiencia h2 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about h3.subtitle {
+    color: #bb0d2a;
+}
+
+.about .box {
+    background: #d6d6d6;
+}
+
+.experiencia img {
+    width: 50%;
+}
+
+.servicios h2 {
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 800;
+    width: 150%;
+    z-index: 1;
+    display: block;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.servicios h3 {
+    font-weight: 700;
+    color: #bb0d2a;
+}
+
+.servicios .col-md-7 p.text-red {
+    font-size: 20px;
+}
+
+.servicios input {
+    background: #d6d6d6;
+    height: 45px;
+    border-radius: 0;
+}
+
+.servicios input::placeholder {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-size: 22px;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+footer {
+    background: #bb0d2a;
+}
+
+footer .box_image img {
+    width: 250px;
+}
+
+footer img.icon {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    font-weight: 300;
+}
